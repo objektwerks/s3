@@ -1,6 +1,6 @@
 S3
 --
->S3 features test using the Minio and AWS sdk.
+>S3 features test using the Minio and AWS SDK.
 
 Install
 -------
