@@ -7,6 +7,6 @@ libraryDependencies ++= {
     "io.minio" % "minio" % "8.3.0",
     "com.amazonaws" % "aws-java-sdk-s3" % "1.12.37",
     "ch.qos.logback" % "logback-classic" % "1.2.5",
-    "org.scalatest" %% "scalatest" % "3.2.9" % Test
+    "org.scalatest" %% "scalatest" % "3.2.10" % Test
   )
 }
