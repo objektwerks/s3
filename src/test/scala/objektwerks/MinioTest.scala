@@ -15,8 +15,8 @@ import org.scalatest.matchers.should.Matchers
 
 import scala.io.Source
 
-class MinioTest extends AnyFunSuite with Matchers {
-  import Conf._
+class MinioTest extends AnyFunSuite with Matchers:
+  import Conf.*
 
   val bucketName = "minio"
   val textFileSize = 36864L
@@ -65,4 +65,3 @@ class MinioTest extends AnyFunSuite with Matchers {
     Source.createBufferedSource(inputStream).getLines().mkString.nonEmpty shouldBe true
     inputStream.close()
   }
-}
