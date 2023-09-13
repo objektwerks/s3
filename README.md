@@ -1,6 +1,6 @@
 S3
 --
->S3 features test using the Minio and AWS SDK.
+>S3 features test using the Minio, AWS SDK and Scala 3.
 
 Install
 -------
