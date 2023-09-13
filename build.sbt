@@ -2,7 +2,7 @@ name := "s3"
 organization := "objektwerks"
 version := "0.1-SNAPSHOT"
 scalaVersion := "2.13.12"
-libraryDependencies ++= {8
+libraryDependencies ++= {
   Seq(
     "io.minio" % "minio" % "8.5.5",
     "com.amazonaws" % "aws-java-sdk-s3" % "1.12.548",
