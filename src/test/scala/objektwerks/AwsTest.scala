@@ -18,8 +18,8 @@ import org.scalatest.matchers.should.Matchers
 
 import scala.io.Source
 
-class AwsTest extends AnyFunSuite with Matchers {
-  import Conf._
+class AwsTest extends AnyFunSuite with Matchers:
+  import Conf.*
 
   val bucketName = "aws"
 
@@ -49,4 +49,3 @@ class AwsTest extends AnyFunSuite with Matchers {
     val s3Object = s3Client.getObject(getObjectRequest)
     Source.createBufferedSource(s3Object.getObjectContent).getLines().mkString.nonEmpty shouldBe true
   }
-}
