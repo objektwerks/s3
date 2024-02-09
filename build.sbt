@@ -5,7 +5,7 @@ scalaVersion := "3.4.0-RC4"
 libraryDependencies ++= {
   Seq(
     "io.minio" % "minio" % "8.5.7",
-    "com.amazonaws" % "aws-java-sdk-s3" % "1.12.654",
+    "com.amazonaws" % "aws-java-sdk-s3" % "1.12.655",
     "ch.qos.logback" % "logback-classic" % "1.4.14",
     "org.scalatest" %% "scalatest" % "3.2.17" % Test
   )
