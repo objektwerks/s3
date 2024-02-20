@@ -6,7 +6,7 @@ libraryDependencies ++= {
   Seq(
     "io.minio" % "minio" % "8.5.7",
     "com.amazonaws" % "aws-java-sdk-s3" % "1.12.661",
-    "ch.qos.logback" % "logback-classic" % "1.4.14",
+    "ch.qos.logback" % "logback-classic" % "1.5.0",
     "org.scalatest" %% "scalatest" % "3.2.17" % Test
   )
 }
