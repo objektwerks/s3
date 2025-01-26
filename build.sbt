@@ -11,5 +11,6 @@ libraryDependencies ++= {
   )
 }
 scalacOptions ++= Seq(
-  "-Wall"
+  "-Wall",
+  "-Wconf:msg=unused value of type org.scalatest.Assertion:s"
 )
