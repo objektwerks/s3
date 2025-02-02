@@ -10,7 +10,3 @@ libraryDependencies ++= {
     "org.scalatest" %% "scalatest" % "3.2.19" % Test
   )
 }
-scalacOptions ++= Seq(
-  "-Wall",
-  "-Wconf:msg=unused value of type org.scalatest.Assertion:s"
-)
