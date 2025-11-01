@@ -1,7 +1,7 @@
 name := "s3"
 organization := "objektwerks"
 version := "0.1-SNAPSHOT"
-scalaVersion := "3.7.4-RC2"
+scalaVersion := "3.7.4-RC3"
 libraryDependencies ++= {
   Seq(
     "io.minio" % "minio" % "8.6.0",
